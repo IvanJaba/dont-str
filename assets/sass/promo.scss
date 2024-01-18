@@ -1,0 +1,47 @@
+/*настройка рекламы*/
+.promo {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+
+  .promo__img {
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-height: 80%;
+    max-width: 80%;
+    min-height: 50%;
+    min-width: 50%;
+    border-radius: 35px; // Устанавливает радиус закругления
+
+  }
+  .promo__text {
+    color: #1f3126;
+    font-weight: 500;
+    margin-top: 5%;
+    font-size: 12px;
+
+  }
+  .promo__text-1 {
+    color: #1f3126;
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: 500;
+  }
+
+}
+
+#promo {
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+#promo img {
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+}
+
+/*настройка рекламы завершена*/

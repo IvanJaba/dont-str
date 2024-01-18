@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*настройка контента*/
+.content {
+  margin-top: 100px;
+}
+
+#frog {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#frog img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+/*настройка контента завершена*/
+
+/*# sourceMappingURL=content.css.map */

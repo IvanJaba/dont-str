@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import "sass/navigation.css";
+@import "sass/footer.css";
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 9600px;
+  }
+}
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
+/*настройка основных стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(180deg, #A8BF76 0%, rgba(206, 235, 149, 0) 18.2%), linear-gradient(180deg, #FFF 55.87%, rgba(255, 255, 255, 0) 82.17%), linear-gradient(0deg, #A8BF76 5.7%, rgba(255, 253, 253, 0) 44.38%);
+  background-size: auto;
+  -webkit-background-size: auto;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(to right, #180b0b, #e09ead, #180b0b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(to right, #180b0b, #e09ead, #180b0b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/*настройка основных стилей завершена*/
+/*настройка контента*/
+.content {
+  margin-top: 50px;
+}
+
+#frog {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#frog img {
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .frog img {
+    max-width: 50%;
+    /* Дополнительные стили для мобильных устройств */
+  }
+}
+@media (min-width: 768px) {
+  .frog img {
+    max-width: 70%;
+    /* Дополнительные стили для планшетов и десктопов */
+  }
+}
+/*настройка контента завершена*/
+/*настройка рекламы*/
+.promo {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.promo .promo__img {
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-height: 80%;
+  max-width: 80%;
+  min-height: 50%;
+  min-width: 50%;
+  border-radius: 35px;
+}
+.promo .promo__text {
+  color: #1f3126;
+  font-weight: 500;
+  margin-top: 5%;
+  font-size: 12px;
+}
+.promo .promo__text-1 {
+  color: #1f3126;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+#promo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#promo img {
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+}
+
+/*настройка рекламы завершена*/
+
+/*# sourceMappingURL=style.css.map */

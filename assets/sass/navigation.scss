@@ -1,0 +1,26 @@
+/*настройка навигации*/
+.navbar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  display: block;
+
+  .navbar__list-item-link {
+    color: #1f3126;
+    font-weight: 500;
+    text-decoration: none;
+    .navbar__list-item-link:hover {text-decoration: underline;}
+
+ }
+
+}
+.mail {
+  color: #1f3126;
+}
+#logo img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+/*настройка навигации завершена*/
