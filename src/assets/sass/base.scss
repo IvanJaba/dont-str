@@ -1,0 +1,40 @@
+/*настройка основных стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  height: 100%;
+  background: linear-gradient(180deg, #A8BF76 0%, rgba(206, 235, 149, 0) 18.2%), linear-gradient(180deg, #FFF 55.87%, rgba(255, 255, 255, 0) 82.17%), linear-gradient(0deg, #A8BF76 5.7%, rgba(255, 253, 253, 0) 44.38%);
+  background-size: auto;
+  -webkit-background-size: auto;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(to right, #180b0b, #e09ead, #180b0b);
+  -webkit-background-clip: text;
+  color: transparent;
+  }
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(to right, #180b0b, #e09ead, #180b0b);
+  -webkit-background-clip: text;
+  color: transparent;
+  }
+
+
+/*настройка основных стилей завершена*/

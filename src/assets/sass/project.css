@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*настройка контента*/
+.project {
+  margin-top: 50px;
+}
+
+#frog {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#frog img {
+  cursor: pointer;
+  width: auto;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .frog img {
+    max-width: 50%;
+    /* Дополнительные стили для мобильных устройств */
+  }
+}
+@media (min-width: 768px) {
+  .frog img {
+    max-width: 70%;
+    /* Дополнительные стили для планшетов и десктопов */
+  }
+}
+/*настройка контента завершена*/
+
+/*# sourceMappingURL=project.css.map */
